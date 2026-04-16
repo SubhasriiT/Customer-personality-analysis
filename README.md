@@ -4,6 +4,10 @@ A data analysis project focused on understanding customer behavior and purchasin
 ## Description
 This project focuses on analyzing customer behavior and purchasing patterns using a retail marketing dataset. The main objective is to understand customer demographics, spending habits, and responses to marketing campaigns to derive meaningful business insights.
 
+## Internship 
+This project was completed as part of a one-month internship at Cognorise Infotech.
+
+
 > **Dataset:** [Customer Personality Analysis – Kaggle](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis)
 
 
