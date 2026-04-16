@@ -1,60 +1,57 @@
 # Customer Personality Analysis
 
-## Overview
+## 1. Project Title
+Customer Personality Analysis
 
-This project analyzes customer behavior and purchasing patterns using a retail marketing dataset. The objective is to understand customer demographics, spending habits, and responses to marketing campaigns.
+## 2. Description
+This project focuses on analyzing customer behavior and purchasing patterns using a retail marketing dataset. The main objective is to understand customer demographics, spending habits, and responses to marketing campaigns to derive meaningful business insights.
 
-## Dataset
+> **Dataset:** [Customer Personality Analysis – Kaggle](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis)
 
-* Total Records: 2,240 customers (cleaned to 2,216)
-* Features: 29
+## 3. Technologies Used
+- **Language:** Python
+- **Environment:** Jupyter Notebook
+- **Libraries:** pandas, numpy, matplotlib, seaborn
 
-The dataset includes:
+## 4. Installation
+To run this project locally:
 
-* Demographics (age, education, marital status, income)
-* Spending across product categories
-* Purchase channels (web, store, catalog, deals)
-* Marketing campaign responses
+1. Clone the repository:
+   ```
+   git clone https://github.com/SubhasriiT/customer-personality-analysis.git
+   ```
+2. Navigate to the project folder:
+   ```
+   cd customer-personality-analysis
+   ```
+3. Install required libraries:
+   ```
+   pip install pandas numpy matplotlib seaborn
+   ```
+4. Open the Jupyter Notebook:
+   ```
+   jupyter notebook
+   ```
 
-## Data Cleaning
+## 5. Usage
+1. Open the notebook file: `Customer Personality Analysis.ipynb`
+2. Run all cells step-by-step to perform data analysis
+3. Explore visualizations and insights generated from the dataset
 
-* Missing values in the Income column (24 rows) were removed
-* No duplicates or inconsistencies found in other columns
+## 6. Contributing
+Contributions are welcome. If you would like to improve this project:
 
-## Key Insights
+1. Fork the repository
+2. Create a new branch
+3. Make your changes
+4. Submit a pull request
 
-* Most customers are Graduates, followed by PhD holders
-* Majority of customers are Married
-* Wine is the highest spending category
-* In-store purchases are the most preferred channel
-* Marketing campaigns show low acceptance rates (~7%)
-* The latest campaign performed better (~15% response rate)
-* Very few complaints were recorded (20 customers)
+## 7. License
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) and is intended for educational purposes.
 
-## Tools and Technologies
+## 8. Contact
+For any queries or suggestions, feel free to reach out:
 
-* Python
-* Pandas, NumPy
-* Matplotlib, Seaborn
-* Jupyter Notebook
-
-## Visualizations
-
-* Bar charts
-* Pie charts
-* Distribution plots
-* Campaign analysis graphs
-
-## Note
-
-Some conclusions in the notebook were mistakenly mixed with another dataset (Employee Salaries). This has been identified and clarified.
-
-## Future Improvements
-
-* Customer segmentation using clustering techniques
-* Predictive modeling for campaign response
-* Dashboard development using Power BI or Streamlit
-
-## Author
-
-Subhasri
+**Name:** Subhasri
+**Email:** ktsubhasri2005@gmail.com
+**GitHub:** [SubhasriiT](https://github.com/SubhasriiT)
