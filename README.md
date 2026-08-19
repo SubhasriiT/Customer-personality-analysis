@@ -1,56 +1,47 @@
 # Customer Personality Analysis
-A data analysis project focused on understanding customer behavior and purchasing patterns using a retail marketing dataset.
 
-> Done as part of a **1-month Data Analytics Internship** at **Cognorise Infotech**
+Analysis of customer behavior and purchasing patterns using a retail marketing dataset — completed as part of a 1-month Data Analytics Internship at CognoRise InfoTech.
 
-## Description
-This project focuses on analyzing customer behavior and purchasing patterns using a retail marketing dataset. The main objective is to understand customer demographics, spending habits, and responses to marketing campaigns to derive meaningful business insights.
+## Overview
 
+This project analyzes customer demographics, spending habits, and campaign responses to understand what drives purchasing behavior across 2,216 customers, and to surface insights a retail/marketing team could act on.
 
-> **Dataset:** [Customer Personality Analysis – Kaggle](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis)
+**Dataset:** [Customer Personality Analysis – Kaggle](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis)
 
+## Key Findings
+
+- **Graduates are the largest and highest-earning segment** — customers with a Graduation-level education are both the most common group and tend to have the highest income.
+- **Married customers dominate** — most customers are married, and married customers also tend to have the highest income and the highest recency (most recent engagement) of any marital status group.
+- **Campaign performance improved over time** — very few customers accepted the 2nd marketing campaign, but acceptance rates climbed steadily through later campaigns, with the last campaign getting the highest response of all.
+- **Store is the leading purchase channel** — customers purchase directly in-store more than through the website or catalog; catalog purchases were the least used channel overall.
+- **Wine and fish lead recent purchases** — over the last 2 years, wine and fish were the most frequently purchased product categories, and married customers account for the bulk of spending across nearly every product category (wine, meat, fish, sweets, fruit, gold).
+- **Low complaint rate** — only 0.9% of customers logged a complaint, indicating generally high satisfaction.
+- **Website engagement is high but underconverting** — 11,777 website visits in the last month, yet website purchases rank behind in-store purchases, suggesting a gap between browsing and buying online worth investigating further.
 
 ## Technologies Used
+
 - **Language:** Python
 - **Environment:** Jupyter Notebook
-- **Libraries:** pandas, numpy, matplotlib, seaborn
+- **Libraries:** pandas, numpy, matplotlib, seaborn, plotly
 
+## Run Locally
 
-## Installation
-To run this project locally:
-
-1. Clone the repository:
+```bash
 git clone https://github.com/SubhasriiT/customer-personality-analysis.git
-2. Navigate to the project folder:
 cd customer-personality-analysis
-3. Install required libraries:
-pip install pandas numpy matplotlib seaborn
-4. Open the Jupyter Notebook:
+pip install pandas numpy matplotlib seaborn plotly
 jupyter notebook
+```
 
-
-## Usage
-1. Open the notebook file: `Customer Personality Analysis.ipynb`
-2. Run all cells step-by-step to perform data analysis
-3. Explore visualizations and insights generated from the dataset
-
-
-## Contributing
-Contributions are welcome. If you would like to improve this project:
-
-1. Fork the repository
-2. Create a new branch
-3. Make your changes
-4. Submit a pull request
-
+Open `Customer Personality Analysis.ipynb` and run all cells to reproduce the analysis.
 
 ## License
+
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) and is intended for educational purposes.
 
-
 ## Contact
-For any queries or suggestions, feel free to reach out:
 
-**Name:** Subhasri  
-**Email:** ktsubhasri2005@gmail.com  
-**GitHub:** [SubhasriiT](https://github.com/SubhasriiT)
+**Subhasri**
+Email: [ktsubhasri2005@gmail.com](mailto:ktsubhasri2005@gmail.com)
+GitHub: [SubhasriiT](https://github.com/SubhasriiT)
+LinkedIn: [Subhasri T](https://www.linkedin.com/in/subhasri-t-007b58282/)
